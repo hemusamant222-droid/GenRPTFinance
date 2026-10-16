@@ -1,0 +1,26 @@
+{
+  "name": "genrpt-finance-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GenRPT Finance product demo video built with React, TypeScript and Remotion",
+  "scripts": {
+    "dev": "remotion studio src/index.ts --port=3000",
+    "studio": "npm run dev",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && remotion bundle src/index.ts",
+    "compositions": "remotion compositions src/index.ts",
+    "render": "remotion render src/index.ts GenRPTFinanceDemo out/genrpt-finance-demo.mp4",
+    "still": "remotion still src/index.ts GenRPTFinanceDemo out/demo.png --frame=90"
+  },
+  "dependencies": {
+    "remotion": "4.0.536",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.536",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.9.3"
+  }
+}

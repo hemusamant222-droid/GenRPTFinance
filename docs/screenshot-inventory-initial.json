@@ -1,0 +1,111 @@
+{
+  "status": "inventory-only-original-files-not-accessible",
+  "source": "User message attachments, numbered in message order",
+  "originalsImported": false,
+  "assets": [
+    {
+      "attachment": "01",
+      "plannedFilename": "report-tax-analysis-full.png",
+      "description": "Full Apple report UI, tax analysis selected",
+      "intendedUse": "Primary report context; analysis; chart; download",
+      "primaryCandidate": true,
+      "importStatus": "pending-original-file"
+    },
+    {
+      "attachment": "02",
+      "plannedFilename": "navigation-financial-analysis.png",
+      "description": "Navigation crop: financial analysis V3/V4, 4.5 selected",
+      "intendedUse": "Navigation and financial-analysis selection",
+      "primaryCandidate": true,
+      "importStatus": "pending-original-file"
+    },
+    {
+      "attachment": "03",
+      "plannedFilename": "tax-analysis-chart-detail.png",
+      "description": "Tax section panel: Apple effective tax rate trend 2021\u20132025; Download Section",
+      "intendedUse": "Chart detail and section-download control",
+      "primaryCandidate": true,
+      "importStatus": "pending-original-file"
+    },
+    {
+      "attachment": "04",
+      "plannedFilename": "report-toolbar.png",
+      "description": "Actual dropdown, Additional Information, Download Report",
+      "intendedUse": "Final report-download interaction",
+      "primaryCandidate": true,
+      "importStatus": "pending-original-file"
+    },
+    {
+      "attachment": "05",
+      "plannedFilename": "account-status.png",
+      "description": "2 free left and profile icon",
+      "intendedUse": "Continuity only; no standalone scene",
+      "primaryCandidate": false,
+      "importStatus": "pending-original-file"
+    },
+    {
+      "attachment": "06",
+      "plannedFilename": "genrpt-finance-logo.png",
+      "description": "Original GenRPT Finance logo",
+      "intendedUse": "Original branding only",
+      "primaryCandidate": true,
+      "importStatus": "pending-original-file"
+    },
+    {
+      "attachment": "07",
+      "plannedFilename": "chat-launcher.png",
+      "description": "Floating blue chat button and scrollbar fragment",
+      "intendedUse": "Continuity only; no chat functionality demonstrated",
+      "primaryCandidate": false,
+      "importStatus": "pending-original-file"
+    },
+    {
+      "attachment": "08",
+      "plannedFilename": "report-overview-framed.png",
+      "description": "Scaled complete report on a pale background",
+      "intendedUse": "Overview reference / alternate wide view; prefer image 01 for detail",
+      "primaryCandidate": false,
+      "importStatus": "pending-original-file"
+    },
+    {
+      "attachment": "09",
+      "plannedFilename": "company-entry.png",
+      "description": "Company / ticker input, research description, Next button",
+      "intendedUse": "Company entry and Next interaction",
+      "primaryCandidate": true,
+      "importStatus": "pending-original-file"
+    },
+    {
+      "attachment": "10",
+      "plannedFilename": "featured-reports.png",
+      "description": "Featured Apple, Braiin, Meta and Microsoft sample reports",
+      "intendedUse": "Optional landing context; not evidence of newly generated research",
+      "primaryCandidate": false,
+      "importStatus": "pending-original-file"
+    },
+    {
+      "attachment": "11",
+      "plannedFilename": "navigation-overview-with-company.png",
+      "description": "Apple Inc. plus navigation sections 1\u20133",
+      "intendedUse": "Early report navigation context",
+      "primaryCandidate": true,
+      "importStatus": "pending-original-file"
+    },
+    {
+      "attachment": "12",
+      "plannedFilename": "navigation-overview.png",
+      "description": "Navigation sections 1\u20133 without company heading",
+      "intendedUse": "Navigation viewport / scrolling start state",
+      "primaryCandidate": true,
+      "importStatus": "pending-original-file"
+    },
+    {
+      "attachment": "13",
+      "plannedFilename": "editor-reference.png",
+      "description": "External video-editor screenshot with timeline and selection handles",
+      "intendedUse": "Layout reference only; exclude editor chrome from output",
+      "primaryCandidate": false,
+      "importStatus": "pending-original-file"
+    }
+  ]
+}

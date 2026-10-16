@@ -1,0 +1,49 @@
+{
+  "status": "mapped-awaiting-original-files",
+  "source": "Latest user message: four ordered screenshots; supersedes initial 13-image sequence",
+  "originalsImported": false,
+  "assets": [
+    {
+      "id": "ss1",
+      "plannedFilename": "ss1-company-entry.png",
+      "visibleState": "Company entry, Next button, featured sample reports; browser chrome visible",
+      "use": "Type abc.com in the existing company input; anonymize sample companies and tickers; crop browser chrome"
+    },
+    {
+      "id": "ss2",
+      "plannedFilename": "ss2-report-initial.png",
+      "visibleState": "Tax Structure & BEPS report opening text and partial effective-tax-rate chart; navigation at sections 1\u20133",
+      "use": "Report arrival and main-panel scroll start"
+    },
+    {
+      "id": "ss3",
+      "plannedFilename": "ss3-report-scrolled.png",
+      "visibleState": "Main report scrolled to Tax Risk Exposure / EV-EBITDA Impact Ranges chart; left navigation remains at sections 1\u20133",
+      "use": "Main-panel scroll end and chart highlight"
+    },
+    {
+      "id": "ss4",
+      "plannedFilename": "ss4-navigation-scrolled.png",
+      "visibleState": "Same risk chart; left navigation scrolled to sections 6\u201310",
+      "use": "Independent navigation scroll end; final download interaction"
+    }
+  ],
+  "anonymization": {
+    "typedInput": "abc.com",
+    "primaryCompany": "ABC Inc.",
+    "primaryTicker": "ABC",
+    "featuredCompanies": [
+      "ABC Inc.",
+      "XYZ Ltd",
+      "XYZ Platforms, Inc.",
+      "ABC Corporation"
+    ],
+    "featuredTickers": [
+      "ABC",
+      "XYZ",
+      "XYZP",
+      "ABCC"
+    ],
+    "scope": "Replace company names and tickers in headings, featured cards, body copy, and chart titles; retain actual GenRPT branding, data, labels, and controls. Financial data is illustrative after relabeling."
+  }
+}
